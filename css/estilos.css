@@ -1,86 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
 
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 700px;
-    }
-    .container {
-        width: 500px;
-        background-color: #ffffff;
-        box-shadow: 0 3px 5px #000000;
-        border-radius: 10px;
-        padding: 60px;
-        text-align: left;
-    }
-    h1 {
-        color: #008cd5;
-        font-size: 20px;
-        background-color: black;
-        padding: 10px;
-    }
-    .acessos {
-        display: flex;
-    }
-    .caixa-acesso {
-        padding: 10px;
-        border: 1px solid #ddd;
-        background-color: #ffffff;
-        border-radius: 10px;
-    }
-    .caixa-acesso h2 {
-        font-size: 16px;
-        color: #000000;
-    }
-    .caixa-acesso p {
-        font-size: 14px;
-        margin: 10px ;
-        color: #3a3a3a;
-    }
-    .campo-texto {
-        width: 100%;
-        height: 20px;
-        padding: 5px;
-        border: 1px solid #a26f6f;
-        border-radius: 4px;
-        margin-bottom: 10px;
-    }
-    a {
-        font-size: 15px;
-        color: #007bff;
+}
+.container{
+    width: 500px;
+    background-color: white;
+    border: 1px  gray solid;
+    padding: 15px;
+    text-align: left;
+
+}
+h1{
+    color: #008cd5;
+    font-size: 20px;
+    background-color: black;
+    padding: 8px;
+    width: 100%;
     
-    }
-    .botao-admin  {
-        width: 50%;
-        padding: 10px;
-        font-size: 14px;
-        border: 0;
-        border-radius: 4px;
-    }
-    .botao-estudante{
-        width: 100px;
-        
-    }
-    .botao-admin {
-        background-color: #1a73e8;
-        color: #fff;
-    }
-    botao-gov {
-        background-color: #fff;
-        color: #1a73e8;
-        border: 1px solid #1a73e8;
-    }
-    .botao-estudante {
-        background-color: #28a745;
-        color: white;
-    }
-    .botao-requisitos {
-        background-color: #17a2b8;
-        color: white;
-    }
-    .botao-requisitos {
-        background-color: #17a2b8;
-        color: white;
-    }
+}
+.acessos{
+    display: flex;
+}
+.caixa-acesso{
+    padding: 5px;
+    width: 50%;
+}
+.caixa-acesso h2{
+    font-size: 16px;
+    color: black;
+    padding: 0;
+}
+.caixa-acesso p{
+    font-size: 14px;
+    margin: 8px;
+    color: #373737;
+    padding: 3px;
+
+}
+.fundo-cinza{
+    margin: 0;
+    padding: 3%;
+    border: 1px gray solid;
+    background-color: #e0dfdf;
+    border-radius: 6px;
+}
+.campo-texto{
+    width: 80%;
+    padding: 5px;
+    border: 1px gray solid;
+    border-radius: 1px;
+    margin: 5px;
+}
+a{
+    font-size: 15px;
+    color: #007bff;
+    margin: 5px;
+}
+.botao-admin{
+    width: 40%;
+    padding: 7px;
+    font-size: 14px;
+    border: 1px #053e7b solid;
+    border-radius: 4px;
+    color: white;
+    background-color: #004dcf;
+    margin: 5px;
+}
+.botao-gov{
+    width: 100%;
+    padding: 10px;
+    background-color: #e0dfdf;
+    color: black;
+    border: 1px gray solid ;
+    border-radius: 6px;
+}
+h2{
+    font-size: 16px;
+    width: 100%;
+    padding: 5px;
+}
+
+.botao-estudante{
+    background-color: #60bf61;
+    color: white ;
+    border: 1px #3e793f solid;
+    border-radius: 4px;
+    width: 60%;
+    padding: 10px;
+    
+}
+p{
+    padding: 10px;
+}
+p{
+    font-size: 12px;
+    
+}
+.botao-requisitos{
+    background-color: #56b7d8 ;
+    color: white;
+    border: 1px #155edb91 solid ;
+    border-radius: 5px;
+    width: 70%;
+    padding: 10px;
+    
+}
